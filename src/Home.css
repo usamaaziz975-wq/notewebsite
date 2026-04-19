@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  background: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17") no-repeat center/cover;
+  backdrop-filter: blur(8px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgba(0,0,0,0.6);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.note {
+  padding: 15px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+}
